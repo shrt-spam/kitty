@@ -1,0 +1,222 @@
+/* Bild von <a href="https://de.freepik.com/vektoren-kostenlos/aquarell-galaxie-hintergrund_23682337.htm#fromView=search&page=1&position=7&uuid=89ea11a5-2710-4481-b40a-973c2d76d30e">Freepik</a> */
+:root {
+  --default-font: Century Gothic,Tahoma,Geneva,sans-serif !important;
+  --highlight-text-shadow: 2px 2px 2px #ff3b71, 2px 2px 11px #2196F3, -3px -3px 6px #E91E63;
+  --highlight-text-color: #fff;
+}
+
+.main-container {
+  background-image: url("./img/23682337_6839781.jpg");
+  background-position: top center;
+  background-size: cover;
+  padding: 300px 50px 20px 200px;
+}
+
+.highlight-text {
+  font-size: calc(20px + 1vw);
+  line-height: normal;
+  text-shadow: var(--highlight-text-shadow);
+  color: var(--highlight-text-color);
+  font-family: var(--default-font);
+  font-weight: bold;
+  text-align: center;
+}
+
+.intro h1,
+.section-header h2 {
+  font-family: var(--default-font);
+  padding: 1px 0;
+  text-shadow: var(--highlight-text-shadow);
+  color: var(--highlight-text-color);
+  font-size: calc(20px + 2vw) !important;
+  line-height: normal !important;
+  margin: 0 auto;
+  text-align: center;
+  display: inline-flex;
+}
+.intro h1 span {
+  font-size: calc(20px + 4vw);
+  margin: 0;
+  padding: 0;
+  transform: rotate(90deg);
+}
+.intro li {
+  display: flex;
+}
+.intro h1 {
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+}
+.intro ol {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.intro .intro-text {
+  /* justify-content: center;
+  width: 100%; */
+  /* text-align: center; */
+  flex-flow: column;
+  width: 350px;
+  padding: 75px 50px;
+  margin: 0;
+  height: auto;
+}
+.intro .intro-image img {
+  background: url("https://c.tenor.com/nnfehjI4h2wAAAAC/cielo-anime.gif");
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-size: auto;
+  background-attachment: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  margin: 0;
+  border: 4px solid #6b1b62;
+  border-radius: 50%;
+  box-shadow: 10px 1px 13px #72aeca;
+}
+
+.intro-socials {
+  display: flex;
+  margin: 0 auto;
+}
+.intro-socials li {
+  margin: 0 10px;
+}
+.intro-socials img {
+  width: 48px;
+  /* background-color: white; */
+}
+.intro-scroll-down {
+  font-family: var(--default-font);
+  font-weight: bold;
+  transform: rotate(270deg);
+  font-size: calc(20px + 6vw);
+  margin: 0 auto;
+  text-shadow: var(--highlight-text-shadow);
+  color: var(--highlight-text-color);
+}
+
+.section {
+  list-style: none;
+  padding: 0;
+  margin: 130px auto;
+  width: 100%;
+  max-width: 1250px;
+}
+
+.section-header h2 span {
+  font-size: calc(20px + 4vw);
+  margin: 0;
+  padding: 0;
+  transform: rotate(90deg);
+}
+
+.section-header.section-header-right {
+  float: right;
+}
+
+.section-content {
+  text-shadow: 0px 0px 6px #f9f9fb;
+  padding: 40px 0;
+  margin: 0;
+  width: 80%;
+  background-color: #e2abc6;
+  color: #7d1190;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: bold;
+  font-family: var(--default-font);
+}
+.section-content-left {
+  border-radius: 15px 25% 25% 15px;
+}
+.section-content-right {
+  float: right;
+  text-align: right;
+  border-radius: 25% 15px 15px 25%;
+}
+.section-content-right ul li {
+  display: block;
+  width: 90%;
+  height: auto;
+  border-bottom: 1px solid #7d1190;
+  margin: 0 auto;
+  padding: 5px;
+  text-align: right;
+  text-shadow: 0px 0px 6px #f9f9fb;
+}
+.section-content p {
+  font-family: var(--default-font);
+  display: block;
+  width: calc(100% - 230px);
+  min-width: 200px;
+  text-align: left;
+  height: auto;
+  margin: 0 0 0 15px;
+  padding: 5px;
+}
+
+.section-spot {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  list-style: none;
+  text-align: right;
+  margin: -210px 0 0 auto;
+  vertical-align: middle;
+}
+.section-spot-left {
+  text-align: left;
+}
+.section-spot img {
+  background: url("https://c.tenor.com/nnfehjI4h2wAAAAC/cielo-anime.gif");
+  background-position-x: 0%;
+  background-position-y: 0%;
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-size: auto;
+  background-attachment: inherit;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  width: 100%;
+  max-width: 300px;
+  height: 100%;
+  max-height: 300px;
+  padding: 10px;
+  margin: 0;
+  border: 4px solid #6b1b62;
+  border-radius: 50%;
+  box-shadow: 10px 1px 13px #72aeca;
+  display: inline;
+}
+
+.tip-menu {
+  display: flex;
+}
+.tip-menu > ul {
+  flex-grow: 1;
+}
+.tip-menu > ul > li.highlight-text {
+  /* float: left; */
+}
+.tip-menu .section-content {
+  width: 100%;
+}
+.tip-menu .section-content-right {
+  text-align: right;
+  border-radius:  0 15px 15px 0;
+}
+.tip-menu .section-content-left {
+  text-align: left;
+  border-radius: 15px 0 0 15px;
+}
