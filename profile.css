@@ -1,4 +1,7 @@
 /* Bild von <a href="https://de.freepik.com/vektoren-kostenlos/aquarell-galaxie-hintergrund_23682337.htm#fromView=search&page=1&position=7&uuid=89ea11a5-2710-4481-b40a-973c2d76d30e">Freepik</a> */
+/* 
+Image by <a href="https://www.freepik.com/free-vector/watercolor-galaxy-background_23682337.htm">Freepik</a>
+*/
 :root {
   --default-font: Century Gothic,Tahoma,Geneva,sans-serif !important;
   --highlight-text-shadow: 2px 2px 2px #ff3b71, 2px 2px 11px #2196F3, -3px -3px 6px #E91E63;
@@ -10,6 +13,10 @@
   background-position: top center;
   background-size: cover;
   padding: 300px 50px 20px 200px;
+  cursor: url("./img/kitty-cursor.png"), auto;
+}
+a:hover {
+  cursor: url("./img/kitty-cursor-hover.png"), auto;
 }
 
 .highlight-text {
@@ -171,7 +178,7 @@
   padding: 0;
   list-style: none;
   text-align: right;
-  margin: -210px 0 0 auto;
+  margin: -250px 0 0 auto;
   vertical-align: middle;
 }
 .section-spot-left {
@@ -219,4 +226,17 @@
 .tip-menu .section-content-left {
   text-align: left;
   border-radius: 15px 0 0 15px;
+}
+.tip-menu .tip-list li {
+  /* display: block; */
+  margin: 0 5px;
+  padding: 5px;
+  border-bottom: 1px solid #7d1190;
+}
+.section-spot.tip-menu-center {
+  margin: -675px auto;
+}
+.section-spot.tip-menu-center img {
+  margin: 0 auto!important;
+  display: block!important;
 }
