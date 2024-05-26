@@ -3,18 +3,18 @@ import re
 pattern = r'(.*)\(([0-9]*)\)'
 
 tmpl="""
-<li>$tip_value TKS -- $text</li>
+<li><span>$tip_value TKS</span>$text</li>
 """
 tmpl_r="""
-<li>$text -- $tip_value TKS</li>
+<li>$text<span>$tip_value TKS</span></li>
 """
 template = Template(tmpl)
 template_r = Template(tmpl_r)
 
 
-with open("obedient-menu.txt", "r") as f:
-    template = template_r
-# with open("fun-menu.txt", "r") as f:
+# with open("obedient-menu.txt", "r") as f:
+#     template = template_r
+with open("fun-menu.txt", "r") as f:
     for line in f:
         line = line.strip()
         match = re.search(pattern, line)

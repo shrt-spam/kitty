@@ -215,6 +215,7 @@ a:hover {
 }
 .tip-menu > ul > li.highlight-text {
   /* float: left; */
+  margin-bottom: 10px;
 }
 .tip-menu .section-content {
   width: 100%;
@@ -232,6 +233,10 @@ a:hover {
   margin: 0 5px;
   padding: 5px;
   border-bottom: 1px solid #7d1190;
+}
+.tip-menu .tip-list > li > span {
+  width: 90px;
+  display: inline-block;
 }
 .section-spot.tip-menu-center {
   margin: -675px auto;
