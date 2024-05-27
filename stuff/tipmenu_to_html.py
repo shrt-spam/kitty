@@ -14,18 +14,25 @@ template_r = Template(tmpl_r)
 
 # with open("obedient-menu.txt", "r") as f:
 #     template = template_r
-with open("fun-menu.txt", "r") as f:
+lines = []
+with open("tipmenu.txt", "r") as f:
     for line in f:
-        line = line.strip()
-        match = re.search(pattern, line)
+        lines.append(line.strip())
 
-        if match:
-            result1 = match.group(1)
-            tip = match.group(2)
-            # print("Result 1:", result1)
-            # print("Result 2:", tip)
+for count, line in enumerate(lines):
+    # switch to right side
+    if count > len(lines)/2:
+        template = template_r
 
-            s = template.substitute(tip_value=tip, text=result1.strip())
-            print(s.strip())
-        else:
-            print("Pattern not found in the string: " + line)
+    match = re.search(pattern, line)
+
+    if match:
+        result1 = match.group(1)
+        tip = match.group(2)
+        # print("Result 1:", result1)
+        # print("Result 2:", tip)
+
+        s = template.substitute(tip_value=tip, text=result1.strip())
+        print(s.strip())
+    else:
+        print("Pattern not found in the string: " + line)

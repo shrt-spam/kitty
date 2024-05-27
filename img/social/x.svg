@@ -42,7 +42,15 @@
      y="48.222767" />
   <!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
   <path
-     d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"
+     d="M 64,32 C 28.7,32 0,60.7 0,96 v 320 c 0,35.3 28.7,64 64,64 h 320 c 35.3,0 64,-28.7 64,-64 V 96 C 448,60.7 419.3,32 384,32 Z"
      id="path1"
-     style="fill:#fd4986;fill-opacity:1" />
+     style="fill:#eb92c2;fill-opacity:1;stroke:#db198d;stroke-width:15;stroke-dasharray:none;stroke-opacity:1"
+     inkscape:export-filename="x.png"
+     inkscape:export-xdpi="9.9524841"
+     inkscape:export-ydpi="9.9524841"
+     sodipodi:nodetypes="sssssssss" />
+  <path
+     d="m 360.60029,116 -103.8,118.6 122.1,161.4 h -95.6 l -74.8,-97.9 -85.7,97.9 H 75.300294 L 186.30029,269.1 69.200294,116 h 97.999996 l 67.7,89.5 78.2,-89.5 z m -37.8,251.6 -169.9,-224.7 h -28.3 l 171.8,224.7 h 26.3 z"
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:15;stroke-dasharray:none;stroke-opacity:1"
+     id="path1-9" />
 </svg>
