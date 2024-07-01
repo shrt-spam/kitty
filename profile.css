@@ -9,14 +9,14 @@ Image by <a href="https://www.freepik.com/free-vector/watercolor-galaxy-backgrou
 }
 
 .main-container-wrapper {
-  background-image: url("https://videochatencasa.com/chat/img/123-1.webp");
+  background-image: url("./img/background-wave.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
 .main-container {
-  background-image: url("./img/background-a90.png");
+  background-image: url("./img/background.jpg");
   background-position: top center;
   background-size: cover;
   padding: 300px 50px 20px 200px;
@@ -78,7 +78,7 @@ a:hover {
   height: auto;
 }
 .intro .intro-image img {
-  background: url("https://c.tenor.com/nnfehjI4h2wAAAAC/cielo-anime.gif");
+  background: url("./img/spot-border-background.webp");
   background-position-x: 0%;
   background-position-y: 0%;
   background-repeat: repeat;
@@ -192,7 +192,7 @@ a:hover {
   text-align: left;
 }
 .section-spot img {
-  background: url("https://c.tenor.com/nnfehjI4h2wAAAAC/cielo-anime.gif");
+  background: url("img/spot-border-background.webp");
   background-position-x: 0%;
   background-position-y: 0%;
   background-repeat: repeat;
@@ -246,16 +246,20 @@ a:hover {
   display: inline-block;
 }
 .section-spot.tip-menu-center {
-  margin: -675px auto;
+  margin: -655px auto;
 }
 .section-spot.tip-menu-center img {
   margin: 0 auto!important;
   display: block!important;
+  border-radius: 3%;
+  max-height: 400px;
+  max-width: 250px;
 }
 
 .footer {
   margin-top: 150px;
   margin-bottom: 50px;
+  color: #7d1190;
   background-color: #e2abc6;
   font-family: Century Gothic,Tahoma,Geneva,sans-serif;
   text-align: center;
