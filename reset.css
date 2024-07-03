@@ -8,14 +8,15 @@
 }
 
 /* Prevent font size inflation */
-html {
+/* html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
-}
+} */
 
 /* Remove default margin in favour of better control in authored CSS */
-body, h1, h2, h3, h4, p,
+/* body, */
+ h1, h2, h3, h4, p,
 figure, blockquote, dl, dd {
   margin-block-end: 0;
 }
@@ -29,12 +30,12 @@ ol {
 }
 
 /* Set core body defaults */
-body {
+/* body {
   min-height: 100vh;
   line-height: 1.5;
   padding:0;
   margin:0;
-}
+} */
 
 /* Set shorter line heights on headings and interactive elements */
 h1, h2, h3, h4,

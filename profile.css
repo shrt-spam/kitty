@@ -2,7 +2,11 @@
 /* 
 Image by <a href="https://www.freepik.com/free-vector/watercolor-galaxy-background_23682337.htm">Freepik</a>
 */
-:root {
+.cb-root {
+    margin-left: -14em;
+    margin-right: 0;
+    margin-top: -1000px;
+
   --default-font: Century Gothic,Tahoma,Geneva,sans-serif !important;
   --highlight-text-shadow: 2px 2px 2px #ff3b71, 2px 2px 11px #2196F3, -3px -3px 6px #E91E63;
   --highlight-text-color: #fff;
@@ -14,12 +18,15 @@ Image by <a href="https://www.freepik.com/free-vector/watercolor-galaxy-backgrou
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
+
+
 }
 .main-container {
   background-image: url("./img/background.jpg");
   background-position: top center;
   background-size: cover;
-  padding: 300px 50px 20px 200px;
+  padding-top: 1000px 50px 20px 200px; /* PATCH */
+  /* padding: 300px 50px 20px 200px; */
   cursor: url("./img/kitty-cursor.png"), auto;
 }
 a:hover {
@@ -113,7 +120,8 @@ a:hover {
   font-weight: bold;
   transform: rotate(270deg);
   font-size: calc(20px + 6vw);
-  margin: 0 auto;
+  /* margin: 0 auto; */
+  margin: 100px auto; /* PATCH */
   text-shadow: var(--highlight-text-shadow);
   color: var(--highlight-text-color);
 }
@@ -192,7 +200,7 @@ a:hover {
   text-align: left;
 }
 .section-spot img {
-  background: url("img/spot-border-background.webp");
+  background: url("./img/spot-border-background.webp");
   background-position-x: 0%;
   background-position-y: 0%;
   background-repeat: repeat;
@@ -212,6 +220,9 @@ a:hover {
   border-radius: 50%;
   box-shadow: 10px 1px 13px #72aeca;
   display: inline;
+}
+.section-rules {
+  margin-left: 30px !important;
 }
 
 .tip-menu {
@@ -246,7 +257,9 @@ a:hover {
   display: inline-block;
 }
 .section-spot.tip-menu-center {
-  margin: -655px auto;
+  /* margin: -655px auto; */
+  position: relative;
+  top: -655px;
 }
 .section-spot.tip-menu-center img {
   margin: 0 auto!important;
