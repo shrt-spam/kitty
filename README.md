@@ -29,3 +29,5 @@ remove newlines:
 cargo install minhtml
 minhtml --output inlined.index.min.html --keep-closing-tags inlined.index.html
 ```
+
+asdfas
